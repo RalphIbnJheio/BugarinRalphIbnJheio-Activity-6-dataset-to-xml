@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE national-arrest [
+	<!ELEMENT national-arrest (una, pangalawa, pangatlo, pang-apat, pang-lima, pang-anim, pang-pito, pang-walo, pang-siyam, pang-sampu)>
+	<!ELEMENT una (population, total-arrest, crime)>
+	<!ELEMENT pangalawa (population, total-arrest, crime)>
+	<!ELEMENT pangatlo (population, total-arrest, crime)>
+	<!ELEMENT pang-apat (population, total-arrest, crime)>
+	<!ELEMENT pang-lima (population, total-arrest, crime)>
+	<!ELEMENT pang-anim (population, total-arrest, crime)>
+	<!ELEMENT pang-pito (population, total-arrest, crime)>
+	<!ELEMENT pang-walo (population, total-arrest, crime)>
+	<!ELEMENT pang-siyam (population, total-arrest, crime)>
+	<!ELEMENT pang-sampu (population, total-arrest, crime)>
+	<!ELEMENT crime (homicide, rape, robbery, burgaly, aggravate, larceny, fraud, forgery)>
+
+	<!ELEMENT population (#PCDATA)>
+	<!ELEMENT total-arrest (#PCDATA)>
+	<!ELEMENT una (#PCDATA)>
+	<!ELEMENT pangalawa (#PCDATA)>
+	<!ELEMENT pangatlo (#PCDATA)>
+	<!ELEMENT pang-apat (#PCDATA)>
+	<!ELEMENT pang-lima (#PCDATA)>
+	<!ELEMENT pang-anim (#PCDATA)>
+	<!ELEMENT pang-pito (#PCDATA)>
+	<!ELEMENT pang-walo (#PCDATA)>
+	<!ELEMENT pang-siyam (#PCDATA)>
+	<!ELEMENT pang-sampu (#PCDATA)>
+	<!ELEMENT crime (#PCDATA)>
+	<!ELEMENT homicide (#PCDATA)>
+	<!ELEMENT rape (#PCDATA)>
+	<!ELEMENT robbery (#PCDATA)>
+	<!ELEMENT burgaly (#PCDATA)>
+	<!ELEMENT aggravate (#PCDATA)>
+	<!ELEMENT larceny (#PCDATA)>
+	<!ELEMENT fraud (#PCDATA)>
+	<!ELEMENT forgery (#PCDATA)>
+
+	<!ATTLIST una id CDATA #REQUIRED>
+	<!ATTLIST pangalawa id CDATA #REQUIRED>
+	<!ATTLIST pangatlo id CDATA #REQUIRED>
+	<!ATTLIST pang-apat id CDATA #REQUIRED>
+	<!ATTLIST pang-lima id CDATA #REQUIRED>
+	<!ATTLIST pang-anim id CDATA #REQUIRED>
+	<!ATTLIST pang-pito id CDATA #REQUIRED>
+	<!ATTLIST pang-walo id CDATA #REQUIRED>
+	<!ATTLIST pang-siyam id CDATA #REQUIRED>
+	<!ATTLIST pang-sampu id CDATA #REQUIRED>
+
+	<!ATTLIST una year CDATA #REQUIRED>
+	<!ATTLIST pangalawa year CDATA #REQUIRED>
+	<!ATTLIST pangatlo year CDATA #REQUIRED>
+	<!ATTLIST pang-apat year CDATA #REQUIRED>
+	<!ATTLIST pang-lima year CDATA #REQUIRED>
+	<!ATTLIST pang-anim year CDATA #REQUIRED>
+	<!ATTLIST pang-pito year CDATA #REQUIRED>
+	<!ATTLIST pang-walo year CDATA #REQUIRED>
+	<!ATTLIST pang-siyam year CDATA #REQUIRED>
+	<!ATTLIST pang-sampu year CDATA #REQUIRED>
+
+]>
+
+
+<national-arrest>
+	<una id="1" year="2016">
+		<population> 323127513 </population>
+		<total-arrest> 10662252 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest>11788</arrest>
+			</homicide>
+
+			<rape>
+				<arrest>23632 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>95754</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest>207325</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest>383977</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest>1050058</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 128531 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 56661 </arrest> 
+			</forgery>
+		</crime>
+		
+	</una>
+
+	<pangalawa id="2" year="2015">	
+		<population> 320896618 </population>
+		<total-arrest> 10797088 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest>11092</arrest>
+			</homicide>
+
+			<rape>
+				<arrest>22863 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>95572</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest>216010</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest>376154</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest>1160390</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 133138 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 55333 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pangalawa>
+
+	<pangatlo id="3" year="2014">	
+		<population> 318907401 </population>
+		<total-arrest> 11205833 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest>10571</arrest>
+			</homicide>
+
+			<rape>
+				<arrest>21007 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>94403</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest>237974</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest>372685</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest>1238190</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 141293 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 56783 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pangatlo>
+
+	<pang-apat id="4" year="2013">	
+		<population> 316497531 </population>
+		<total-arrest> 11302102 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest>10231</arrest>
+			</homicide>
+
+			<rape>
+				<arrest>16863 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>94406</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest>252629</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest>358860</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest>1231580</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 143528 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 60969 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-apat>
+
+	<pang-lima id="5" year="2012">	
+		<population> 313873685 </population>
+		<total-arrest> 12196959 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest>11075</arrest>
+			</homicide>
+
+			<rape>
+				<arrest>18098 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>103661</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest>283582</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest>388362</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest>1282352</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 153535 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 67046 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-lima> 
+
+	<pang-anim id="6" year="2011">	
+		<population> 311587816 </population>
+		<total-arrest> 12408899 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest> 10832</arrest>
+			</homicide>
+
+			<rape>
+				<arrest> 19491 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>106674</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest> 296707</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest> 397707</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest> 1264986</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 168217 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 70211 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-anim>
+
+	<pang-pito id="7" year="2010">	
+		<population> 309330219 </population>
+		<total-arrest> 13120947 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest> 11201</arrest>
+			</homicide>
+
+			<rape>
+				<arrest> 20088 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>112300</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest> 289769</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest> 408488</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest> 1271410</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 187887 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 78101 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-pito> 
+
+	<pang-walo id="8" year="2009">	
+		<population> 307006550 </population>
+		<total-arrest> 13687241 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest> 12418</arrest>
+			</homicide>
+
+			<rape>
+				<arrest> 21407 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>126725</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest> 299351</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest> 421215</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest> 1334933</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 210255 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 85844 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-walo>
+
+	<pang-siyam id="9" year="2008">	
+		<population> 304059724 </population>
+		<total-arrest> 14005615 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest> 12955</arrest>
+			</homicide>
+
+			<rape>
+				<arrest> 22584 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>129403</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest> 308479</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest> 429969</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest> 1266706</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 234199 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 90127 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-siyam>
+
+	<pang-sampu id="10" year="2007">	
+		<population> 301621157 </population>
+		<total-arrest> 14209365 </total-arrest>
+		<crime>
+			<homicide>
+				<arrest> 13480</arrest>
+			</homicide>
+
+			<rape>
+				<arrest> 23307 </arrest>
+			</rape>
+
+			<robbery> 
+				<arrest>129403</arrest>
+			</robbery>
+
+			<burgaly> 
+				<arrest> 308479</arrest>
+			</burgaly>
+
+			<aggravate> 
+				<arrest> 429969</arrest>
+			</aggravate>
+
+			<larceny> 
+				<arrest> 429969</arrest>
+			</larceny>
+
+			<fraud>
+				 <arrest> 234199 </arrest>
+			</fraud>
+
+			<forgery>
+				<arrest> 90127 </arrest> 
+			</forgery>
+		</crime>
+		
+	</pang-sampu>
+
+</national-arrest>
